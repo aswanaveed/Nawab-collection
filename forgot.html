@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forgot Password - NAWAB COLLECTION</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Playfair+Display:wght@700&family=Inter:wght@300;400&display=swap"
+    rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Cormorant Garamond', serif;
+      scroll-behavior: smooth;
+      background: linear-gradient(135deg, #0b1a4a, #1a237e);
+    }
+  </style>
+</head>
+
+<body class="min-h-screen flex flex-col items-center justify-center text-gray-900">
+
+  <!-- HEADER -->
+  <h1 class="text-4xl md:text-5xl font-semibold mb-8 text-white tracking-wide text-center"
+    style="font-family: 'Playfair Display', serif;">
+    Welcome to Nawab Collection
+  </h1>
+
+  <!-- FORGOT PASSWORD CARD -->
+  <div class="bg-white shadow-2xl rounded-2xl p-10 w-11/12 max-w-md text-center border border-gray-200">
+    <h2 class="text-3xl font-semibold text-[#0b1a4a] mb-6"
+      style="font-family: 'Playfair Display', serif;">Forgot Password</h2>
+    <p class="text-gray-600 mb-6 font-light">Enter your registered email below and we’ll send you a reset link.</p>
+
+    <form>
+      <div class="mb-6 text-left">
+        <label for="email" class="block text-sm font-medium text-gray-700 mb-2">Email Address</label>
+        <input type="email" id="email" name="email"
+          class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#0b1a4a]"
+          placeholder="you@example.com" required>
+      </div>
+
+      <button type="submit"
+        class="w-full bg-[#0b1a4a] text-white py-3 rounded-lg hover:bg-blue-900 transition font-medium">Send Reset
+        Link</button>
+    </form>
+
+    <div class="mt-6 text-sm space-y-2">
+      <a href="login.html" class="block text-[#0b1a4a] hover:underline">Back to Login</a>
+      <a href="signup.html" class="block text-gray-600 hover:text-[#0b1a4a]">Create New Account</a>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="text-center text-white mt-10 text-sm opacity-80">
+    © 2025 NAWAB COLLECTION. All rights reserved.
+  </footer>
+
+</body>
+</html>

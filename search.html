@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NAWAB COLLECTION - Search</title>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Cormorant+Garamond:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+    body {
+      font-family: 'Cormorant Garamond', serif;
+    }
+  </style>
+</head>
+<body class="bg-white text-gray-800">
+
+  <!-- ✅ Header Section -->
+  <header class="bg-white shadow-sm sticky top-0 z-50">
+    <div class="bg-[#0b1a4a] text-white text-center py-1 text-sm">
+      10% Off on First Order
+    </div>
+
+    <div class="flex justify-between items-center px-8 py-4">
+      <!-- ✅ Clickable Logo -->
+      <a href="index.html" class="text-4xl font-extrabold tracking-wider text-[#0b1a4a] hover:opacity-80 transition" style="font-family: 'Playfair Display', serif;">
+        NAWAB COLLECTION
+      </a>
+
+      <!-- ✅ Navigation Links -->
+      <nav class="flex space-x-8 text-lg text-[#0b1a4a]">
+        <a href="index.html" class="hover:underline">Home</a>
+        <a href="product.html" class="hover:underline">Bedding</a>
+        <a href="comforter.html" class="hover:underline">Comforters</a>
+        <a href="wholesale.html" class="hover:underline">Wholesale</a>
+        <a href="sale.html" class="hover:underline">Sale</a>
+        <a href="aboutus.html" class="hover:underline">About Us</a>
+      </nav>
+
+      <!-- ✅ Icons -->
+      <div class="flex items-center gap-4 text-[#0b1a4a]">
+        <a href="login.html" class="hover:text-gray-600" aria-label="Profile">
+          <i class="fas fa-user text-xl"></i>
+        </a>
+        <a href="search.html" class="hover:text-gray-600" aria-label="Search">
+          <i class="fas fa-search text-xl"></i>
+        </a>
+        <a href="cart.html" class="hover:text-gray-600" aria-label="Cart">
+          <i class="fas fa-shopping-bag text-xl"></i>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ✅ Search Section -->
+  <section class="bg-[#1f2a57] text-white text-center py-20">
+    <h1 class="text-5xl font-bold mb-6">Search Our Collection</h1>
+    <p class="text-lg mb-8">Find the perfect bedding, comforters, or linens for your space.</p>
+
+    <form action="#" method="GET" class="flex justify-center max-w-xl mx-auto">
+      <input type="text" name="query" placeholder="Search for products..." 
+             class="w-full px-6 py-3 rounded-l-full focus:outline-none text-gray-800" required>
+      <button type="submit" class="bg-white text-[#0b1a4a] px-6 py-3 rounded-r-full font-semibold hover:bg-gray-200 transition">
+        <i class="fas fa-search"></i>
+      </button>
+    </form>
+  </section>
+
+  <!-- ✅ Search Results Section -->
+  <section class="py-16 px-8 text-center bg-gray-50">
+    <h2 class="text-3xl font-semibold text-[#0b1a4a] mb-6">Search Results</h2>
+
+    <!-- Message if no results -->
+    <p class="text-gray-600 text-lg mb-10">No results found. Try a different keyword.</p>
+
+    <!-- Example Product Grid -->
+    <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+      <div class="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition">
+        <img src="https://via.placeholder.com/300x200" alt="Product 1" class="rounded-xl mb-4 mx-auto">
+        <h3 class="text-2xl font-semibold mb-2 text-[#0b1a4a]">Bedding Set</h3>
+        <p class="text-gray-600 mb-4">starting from 2500</p>
+        <a href="product.html" class="bg-[#0b1a4a] text-white px-5 py-2 rounded-full hover:bg-[#162e66] transition">View Details</a>
+      </div>
+
+      <div class="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition">
+        <img src="https://via.placeholder.com/300x200" alt="Product 2" class="rounded-xl mb-4 mx-auto">
+        <h3 class="text-2xl font-semibold mb-2 text-[#0b1a4a]">Soft Comforter</h3>
+        <p class="text-gray-600 mb-4">3500-5000</p>
+        <a href="comforter.html" class="bg-[#0b1a4a] text-white px-5 py-2 rounded-full hover:bg-[#162e66] transition">View Details</a>
+      </div>
+
+      <div class="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition">
+        <img src="https://via.placeholder.com/300x200" alt="Product 3" class="rounded-xl mb-4 mx-auto">
+        <h3 class="text-2xl font-semibold mb-2 text-[#0b1a4a]">sale</h3>
+        <p class="text-gray-600 mb-4">starting from 2000</p>
+        <a href="sale.html" class="bg-[#0b1a4a] text-white px-5 py-2 rounded-full hover:bg-[#162e66] transition">View Details</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ✅ Footer -->
+  <footer class="bg-gray-900 text-gray-300 py-8 text-center">
+    <p>&copy; 2025 NAWAB COLLECTION. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

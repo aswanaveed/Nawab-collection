@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Signup | Nawab Collection</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Cormorant Garamond', serif;
+      background-color: #0b1a4a;
+    }
+  </style>
+</head>
+<body class="flex items-center justify-center min-h-screen text-[#0b1a4a]">
+
+  <div class="bg-white rounded-2xl shadow-2xl w-full max-w-md p-10">
+    <h1 class="text-center text-4xl font-bold mb-2" style="font-family: 'Playfair Display', serif;">Welcome to</h1>
+    <h2 class="text-center text-3xl font-bold text-[#0b1a4a] mb-8">Nawab Collection</h2>
+
+    <h3 class="text-xl font-semibold text-center mb-6">Create Your Account</h3>
+
+    <form>
+      <div class="mb-4">
+        <label class="block mb-2 font-medium">Full Name</label>
+        <input type="text" placeholder="Enter your name"
+          class="w-full border rounded-lg px-4 py-2 focus:ring-2 focus:ring-[#0b1a4a] outline-none" required />
+      </div>
+
+      <div class="mb-4">
+        <label class="block mb-2 font-medium">Email</label>
+        <input type="email" placeholder="Enter your email"
+          class="w-full border rounded-lg px-4 py-2 focus:ring-2 focus:ring-[#0b1a4a] outline-none" required />
+      </div>
+
+      <div class="mb-4">
+        <label class="block mb-2 font-medium">Password</label>
+        <input type="password" placeholder="Create a password"
+          class="w-full border rounded-lg px-4 py-2 focus:ring-2 focus:ring-[#0b1a4a] outline-none" required />
+      </div>
+
+      <div class="mb-4">
+        <label class="block mb-2 font-medium">Confirm Password</label>
+        <input type="password" placeholder="Re-enter password"
+          class="w-full border rounded-lg px-4 py-2 focus:ring-2 focus:ring-[#0b1a4a] outline-none" required />
+      </div>
+
+      <button type="submit"
+        class="w-full bg-[#0b1a4a] text-white py-2 rounded-lg font-medium hover:bg-[#142b6e] transition">Sign Up</button>
+    </form>
+
+    <p class="text-center text-sm mt-6">
+      Already have an account?
+      <a href="login.html" class="text-[#0b1a4a] font-semibold hover:underline">Login</a>
+    </p>
+  </div>
+
+</body>
+</html> 
